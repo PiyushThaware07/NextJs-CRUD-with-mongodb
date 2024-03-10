@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 
-export default function page() {
+export default function Page() {
     const [fname, setFname] = useState("");
     const [lname, setLname] = useState("");
     const [email, setEmail] = useState("");

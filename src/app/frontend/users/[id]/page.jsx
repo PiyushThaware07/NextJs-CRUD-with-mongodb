@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 
-export default function page({ params }) {
+export default function Page({ params }) {
     const id = params.id;
 
     // FETCH SINGLE USER
